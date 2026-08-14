@@ -74,7 +74,7 @@ function App() {
     })
     setEditingTaskId(null)
     fetchTasks()
-    alert('✏️ Tarefa atualizada com sucesso!') // Feedback visual
+    
   }
 
   const deleteTask = async (id) => {
@@ -83,7 +83,7 @@ function App() {
         method: 'DELETE'
       })
       fetchTasks()
-      alert('🗑️ Tarefa excluída!') // Feedback visual
+      
     }
   }
 
