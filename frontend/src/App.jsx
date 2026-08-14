@@ -42,7 +42,7 @@ function App() {
     fetchTasks()
     
     // Feedback visual (Requisito da Banca)
-    alert('✅ Tarefa adicionada com sucesso!')
+  
   }
 
   const updateStatus = async (id, newStatus) => {
